@@ -1,17 +1,17 @@
-°²×°²½Öè
-1.°²×°JavaEE»·¾³£º
-(1)ÏÂÔØ°²×°JDK
-(2)ÏÂÔØ°²×°Tomcat
-(3)ÏÂÔØ°²×°MySQL
+å®‰è£…æ­¥éª¤
+1.å®‰è£…JavaEEç¯å¢ƒï¼š
+(1)ä¸‹è½½å®‰è£…JDK
+(2)ä¸‹è½½å®‰è£…Tomcat
+(3)ä¸‹è½½å®‰è£…MySQL
 2.FFmpeg
-(1)ÏÂÔØ²¢ÇÒ½âÑ¹ËõFFmpeg¿ÉÖ´ĞĞ³ÌĞò
-(2)°ÑFFmpegµÄbinÄ¿Â¼(ÆäÖĞ°üº¬ffmpeg.exe)Ìí¼ÓÖÁÏµÍ³µÄ"path"»·¾³±äÁ¿(ÖØÒª£¬ÕâÑù²Å¿ÉÒÔÔÚÏµÍ³ÈÎÒâÄ¿Â¼ÖĞÊ¹ÓÃffmpegÃüÁî)
-3.¸´ÖÆ³ÌĞò
-(1)ĞŞ¸ÄWebroot\WEB-INF\classes\hibernate.cfg.xmlÖĞÊı¾İ¿âµÄÓÃ»§ÃûºÍÃÜÂë
-(2)¿½±´WebRootÄ¿Â¼ÖÁTomcatµÄwebappsÄ¿Â¼£¬ÖØĞÂÈ¡¸öÃû×Ö(ÀıÈç"svw")
-(3)ÔÚMySQLÖĞ´´½¨Êı¾İ¿â"svw"£¬ÔÚÆäÖĞÖ´ĞĞsvw.sql£¬´´½¨Êı¾İ¿âÖĞµÄ±í£¬²¢ÇÒÌí¼Ó²âÊÔÊı¾İ
-4.Æô¶¯Tomcat
-5.Ê¹ÓÃä¯ÀÀÆ÷·ÃÎÊhttp://localhost:8080/svw
+(1)ä¸‹è½½å¹¶ä¸”è§£å‹ç¼©FFmpegå¯æ‰§è¡Œç¨‹åº
+(2)æŠŠFFmpegçš„binç›®å½•(å…¶ä¸­åŒ…å«ffmpeg.exe)æ·»åŠ è‡³ç³»ç»Ÿçš„"path"ç¯å¢ƒå˜é‡(é‡è¦ï¼Œè¿™æ ·æ‰å¯ä»¥åœ¨ç³»ç»Ÿä»»æ„ç›®å½•ä¸­ä½¿ç”¨ffmpegå‘½ä»¤)
+3.å¤åˆ¶ç¨‹åº
+(1)ä¿®æ”¹Webroot\WEB-INF\classes\hibernate.cfg.xmlä¸­æ•°æ®åº“çš„ç”¨æˆ·åå’Œå¯†ç 
+(2)æ‹·è´WebRootç›®å½•è‡³Tomcatçš„webappsç›®å½•ï¼Œé‡æ–°å–ä¸ªåå­—(ä¾‹å¦‚"svw")
+(3)åœ¨MySQLä¸­åˆ›å»ºæ•°æ®åº“"svw"ï¼Œåœ¨å…¶ä¸­æ‰§è¡Œsvw.sqlï¼Œåˆ›å»ºæ•°æ®åº“ä¸­çš„è¡¨ï¼Œå¹¶ä¸”æ·»åŠ æµ‹è¯•æ•°æ®
+4.å¯åŠ¨Tomcat
+5.ä½¿ç”¨æµè§ˆå™¨è®¿é—®http://localhost:8080/svw
 
 How to install
 1. Install JavaEE environment:
@@ -25,6 +25,6 @@ How to install
 3.Copy source code
 (1)Change database's user and password in Webroot\WEB-INF\classes\hibernate.cfg.xml 
 (2)Copy WebRoot Folder to Tomcat's webapps Folder, Rename it (For example,"svw")
-(3)Create databse "svw", and run svw.sql to create tables and insert some data
+(3)Create database "svw", and run svw.sql to create tables and insert some data
 4.Run Tomcat
 5.Visit http://localhost:8080/svw
