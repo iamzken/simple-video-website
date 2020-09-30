@@ -2,7 +2,7 @@
 Navicat MySQL Data Transfer
 
 Source Server         : 本机Mysql
-Source Server Version : 50524
+Source Server Version : 10324
 Source Host           : localhost:3306
 Source Database       : svw
 
